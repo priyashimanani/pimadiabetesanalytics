@@ -7,10 +7,10 @@ Finding insights from Pima Indians Diabetes Datasets
 ```
 Mean, mode, median and standard deviation of age, body mass index and diastolic blood pressure among females who have diabetes.
 
-Variable	    Mean	      Mode	Median	Std Dev
+Variable	    Mean	Mode	Median	   Std Dev
 age	          37.0671642	25	  36	    10.9682537
-bmi	          35.1425373	32.9	34.25	  7.2629672
-diastolic_bp	70.8246269	70	  74	    21.4918117
+bmi	          35.1425373	32.9	  34.25	    7.2629672
+diastolic_bp	  70.8246269	70	  74	    21.4918117
 
 ```
 
@@ -43,7 +43,7 @@ Average age and body mass index of test subjects in the dataset
 
 Variable	  N	  Mean	      Std Dev	    Minimum	    Maximum
 age	      768	  33.2408854	11.7602315	21	        81
-bmi	      768	  31.9925781	7.8841603	  0	          67.1
+bmi	      768	  31.9925781	7.8841603	 0	        67.1
 
 
 ```
