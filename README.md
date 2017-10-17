@@ -1,5 +1,6 @@
-# pimadiabetesanalytics
+# Diabetes in Pima Indians Females
 Finding insights from Pima Indians Diabetes Datasets
+The dataset contains information about Pima Indian Females above the age of 21. The idea behind the analysis was to gather information about the number of females having diabetes in a defined age group as well as to determine the average BMI so that further relationships can be determined.
 
 
 # Findings and Summary
