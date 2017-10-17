@@ -1,14 +1,20 @@
 libname mysas'documents';
-proc means data=mysas.pima;
+data newdata1;
+set mysas.pima;
+if bmi=0 then delete;
+else output;
+run;
+proc means data=newdata1;
 var age bmi;
-output out=work.avgdata;
+output out=avgdata;
 run;
 
-data work.diabetes;
-set mysas.pima;
-if work.diabetes ='TRUE' then output;
+data diabetes;
+set newdata1;
+if diabetes ='TRUE' then output;
 else delete;
 run;
+
 proc format;
 value agegrp 21-<40 = '21-39'
 		  40-<60 = '40-59'
@@ -16,8 +22,8 @@ value agegrp 21-<40 = '21-39'
 		  80-<85   = '80-84';
 
 run;
-proc freq data=work.diabetes;
-tables age*diabetes / OUT=work.COUNTDATA;
+proc freq data=diabetes;
+tables age*diabetes / OUT=COUNTDATA;
 format age agegrp.;
 run;
 
