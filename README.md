@@ -7,43 +7,51 @@ Finding insights from Pima Indians Diabetes Datasets
 ```
 Mean, mode, median and standard deviation of age, body mass index and diastolic blood pressure among females who have diabetes.
 
-Variable	    Mean	Mode	Median	   Std Dev
-age	          37.0671642	25	  36	    10.9682537
-bmi	          35.1425373	32.9	  34.25	    7.2629672
-diastolic_bp	  70.8246269	70	  74	    21.4918117
+Variable	Mean		Mode	Median	Std Dev
+age		37.0300752	25	36	10.9516535
+bmi		35.4067669	32.9	34.3	6.6149824
+diastolic_bp	70.9962406	70	74	21.072113
 
 ```
 
 
+Count of Diabetic females in each age group
+
 ```
 
-Frequency	Table of age by diabetes		
-	age	        diabetes	
-		        TRUE	Total
-	21-39	    160	  160
-		        59.7	59.7
-		        100	
-		        59.7	
-Percent	40-59	99	99
-		36.94	36.94
-		100	
-		36.94	
-Row Pct	60-79	9	9
-		3.36	3.36
-		100	
-		3.36	
-Col Pct	Total	268	268
-		100	100
-
-
+|-----------|----------------------------|
+|Frequency  |	Table of age by diabetes |
+|-----------|----------------------------|		
+|Percent    |		|   diabetes	 |
+|-----------|   age 	|----------------|	
+|Row Pct    |		|TRUE	| Total	 |
+|-----------|-----------|----------------|
+|Col Pct    |	21-39	|159	|159	 |
+|-----------|		|59.77	|59.77	 |
+|	    |		|100	|	 |
+|	    |		|59.77	|	 |
+|-----------|-----------|----------------|	
+|	    |	40-59	|98	|98	 |
+|	    |		|36.84	|36.84	 |
+|	    |		|100	|	 |
+|	    |		|36.84	|	 |
+|-----------|-----------|----------------|	
+|	    |	60-79	|9	|9	 |
+|	    |		|3.38	|3.38	 |
+|	    |		|100	|	 |
+|	    |		|3.38	|	 |
+|-----------|-----------|----------------|	
+|	    |	Total	|266	|266     |
+|	    |		|100	|100	 |
+|-----------|-----------|----------------|
 ```
 
 ```
 Average age and body mass index of test subjects in the dataset
 
-Variable	  N	  Mean	      Std Dev	    Minimum	    Maximum
-age	      768	  33.2408854	11.7602315	21	        81
-bmi	      768	  31.9925781	7.8841603	 0	        67.1
+Variable	N	Mean		Std Dev		Minimum		Maximum
+age		757	33.2813738	11.6977515	21		81
+bmi		757	32.4574637	6.9249883	18.2		67.1
 
 
 ```
